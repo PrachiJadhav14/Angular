@@ -29,10 +29,10 @@ Once the project is added, it can be run using:
 
 ```bash
 # Clone the repository
-git clone [repo-link]
+git clone [https://github.com/PrachiJadhav14/Angular]
 
 # Navigate to the project folder
-cd [project-folder]
+cd Angular
 
 # Install dependencies
 npm install
