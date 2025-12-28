@@ -1,0 +1,7 @@
+1.If we want create default termibal cmd in vs code 
+	1.1 goto search panel
+	1.2 >Terminal:Select Default Profil	And select terminal Command Prompt
+
+2.If we want a start application and run in avs code we go to project inside and type terminal <code .> 
+	and vs code terminal press <ctrl+`> opens the terminal and type ng s
+	your application will be start.
