@@ -1,0 +1,9 @@
+h1{
+  color: rgb(67, 7, 122);
+  background-color: aqua;
+  text-align: center;
+  text-decoration: dashed;
+  font-weight:bold;
+  padding: 6px;
+  margin: 0px;
+}
