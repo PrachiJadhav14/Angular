@@ -10,5 +10,10 @@ export class Login {
   HandleClickEvent(){
         //  alert("Function Called")
         console.log("Function Called");
+        this.Other_Function();
   }
+  Other_Function(){
+      console.log("Other Function Called");
+  }
+
 }
