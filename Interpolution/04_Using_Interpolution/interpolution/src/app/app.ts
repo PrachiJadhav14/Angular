@@ -1,8 +1,10 @@
 import { Component, signal } from '@angular/core';
-import { Usingdatefunction } from "./usingdatefunction/usingdatefunction";
+import { RouterLink, RouterOutlet } from "@angular/router";
+
+
 @Component({
   selector: 'app-root',
-  imports: [Usingdatefunction],
+  imports: [ RouterLink, RouterOutlet],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
