@@ -1,4 +1,5 @@
 import { CommonModule, DatePipe } from '@angular/common';
+import { ChangeDetectionStrategy } from '@angular/compiler';
 import { Component, inject, Injector } from '@angular/core';
 
 
@@ -14,7 +15,8 @@ import { Component, inject, Injector } from '@angular/core';
   // }`,
   standalone:true,
   imports: [CommonModule],
-  providers:[DatePipe]
+  providers:[DatePipe],
+
 })
 export class Student {
        name:string='Prachi Jadhav';
@@ -28,8 +30,6 @@ export class Student {
        showmessage(){
             alert("welcome To My Angular Website");
        }
-
-
        transformedDate = this.date.transform(new Date(),'dd-MM-yyy');
 
       }
