@@ -1,0 +1,35 @@
+<h1>This is Event Bindig Of {{name}}</h1>
+
+<h1>Hello {{FirstName}} {{LastName}}</h1>
+
+<h1>Prise of Product {{price*quantity}}</h1>
+
+<h4>age : {{ age >=18? 'Senior': 'Junior'}}</h4>
+
+<!-- One Way Binding -->
+ <h1>Example Of One Way Binding </h1>
+ <!-- Interpolution -->
+<h3>{{ getMessage()}}</h3>
+
+<!-- Event Binding    -->
+<button (click)="changeNameI()">Two Way Binding</button>
+<button (click)="showmessage()"> Clik Me</button>
+<h1>Hello</h1>
+<!-- Property Binding -->
+<img [src]= "imgUrl" alt="coding img" height="200px" width="400px"><br>
+
+<h1>***************================**************</h1>
+ <h1>Example Of Two Way Binding </h1>
+<!-- ngModule -->
+ First Name : <input [(ngModel)] = "SFirst_Name">
+ Last Name : <input [(ngModel)] = 'SLast_Name'><br>
+<h1>***************================**************</h1>
+ <H1>Helo {{SFirst_Name}} {{SLast_Name}}</H1>
+
+<input [(ngModel)]="pname">
+ <p>Your Name: {{ pname }}</p>
+
+
+<button [disabled] = 'isDisabled'>Save</button>
+
+<app-demo></app-demo>
