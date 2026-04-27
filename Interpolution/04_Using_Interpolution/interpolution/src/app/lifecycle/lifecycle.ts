@@ -14,6 +14,7 @@ export class Lifecycle implements OnInit,OnChanges,OnDestroy{
   ngOnChanges(changes: SimpleChanges): void {
     throw new Error('Method not implemented.');
   }
+
 OnChanges(){
   confirm("ngOnchanges Called...!");
 }
