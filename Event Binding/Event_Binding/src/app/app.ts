@@ -8,7 +8,6 @@ import { Demo } from "./demo/demo";
   templateUrl: './app.html',
   styleUrl: './app.css',
 
-
 })
 export class App {
   protected readonly title = signal('Event_Binding');
