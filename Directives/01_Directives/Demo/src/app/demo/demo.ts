@@ -9,15 +9,17 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
   // changeDetection : ChangeDetectionStrategy.OnPush
 })
 export class Demo {
- date : string = '03-05-2026';
- isvisble :  boolean = true;
+//  date : string = '03-05-2026';
+//  isvisble :  boolean = true;
+//  isCheked : boolean = true;
 
- toggle(){
-  if (this.isvisble){
-    this.isvisble = false;
-  }
-  else{
-    this.isvisble = true
-  }
-}
+//  toggle(){
+//   if (this.isvisble){
+//     this.isvisble = false;
+//   }
+//   else{
+//     this.isvisble = true;
+//   }
+// }
+items = ['Apple','Banana','Mango','Pineaplle'];
 }
