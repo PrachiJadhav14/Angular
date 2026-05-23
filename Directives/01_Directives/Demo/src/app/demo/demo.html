@@ -1,5 +1,16 @@
 <p>demo works!</p>
-<h2>{{date}}</h2>
-<p *ngIf="isvisble">This is If COndition</p>
+<!-- <h2>{{date}}</h2> -->
+<!-- Inline -->
+<!-- <p *ngIf="isvisble">This is If COndition</p> -->
 
-<button (click)="toggle()">Toggle</button>
+<!-- Internal -->
+<!-- @if(isCheked){
+  <p>This is Modern Way If Condition</p>
+}@else{
+  <p>Else Condition</p>
+}
+<button (click)="toggle()">Toggle</button> -->
+
+<div *ngFor="let item of items;let i = index">
+  {{i + 11}} - {{item}}
+</div>
