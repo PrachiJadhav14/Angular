@@ -1,0 +1,18 @@
+<input type="text" placeholder="Enter Youre Name">
+<p [ngClass]="username ? 'success' : 'error'">
+  {{username ? 'Valid Username':'UseName Required'}}
+</p>
+
+<button (click)="selected = 'home' "
+[ngClass]="selected === 'home' ? 'active' :'' ">Home</button>
+
+<button (click)="selected = 'about' "
+[ngClass]="selected === 'about' ? 'active' : '' ">
+  About
+</button>
+
+
+
+<p [ngStyle]="{
+ color : isError ? 'red' :  'green'
+}">Status Message</p>
