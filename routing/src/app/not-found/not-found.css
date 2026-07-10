@@ -1,0 +1,35 @@
+.not-found-card {
+  max-width: 500px;
+  margin: 80px auto;
+  padding: 30px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.icon {
+  font-size: 70px;
+  width: 70px;
+  height: 70px;
+  color: #f44336;
+}
+
+h1 {
+  font-size: 70px;
+  margin: 15px 0;
+  color: #f44336;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+p {
+  margin: 20px 0;
+  color: #666;
+  line-height: 1.6;
+}
+
+button {
+  margin-top: 20px;
+}
