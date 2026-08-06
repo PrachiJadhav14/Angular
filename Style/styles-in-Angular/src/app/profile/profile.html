@@ -1,2 +1,6 @@
-<h1>Profile Component</h1>
-<button>Save Me</button>
+<!-- <h1 [style.background-color]="color"
+[style.font-Size]="fontSize">Profile Component</h1>
+<button >Save Me</button> -->
+<!-- <h1 [style.font-size]="headingSizeBig">Heading</h1> -->
+<h2 [style.font-size]="zoom ? '90px' : '25px'">Heading</h2>
+<button (click)="updateHeadingSize()">Toggle Size</button>
