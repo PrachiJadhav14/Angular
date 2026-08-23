@@ -1,0 +1,28 @@
+<h1>Foor Loop</h1>
+
+@for(item of user;
+let i = $index;
+let f = $first;
+let l = $last;
+track item; )
+ {
+
+  <!-- <h1>{{$last}}</h1> -->
+   <!-- <h2>{{$first}}</h2> -->
+    <!-- @if ( l|| f) {
+        <h3 style="color: red; background-color: rgb(15, 138, 246);">This is Our {{$index+1}} User And {{user}}</h3>
+    }
+    @else{
+        <h3>This is Our {{$index+1}} User And {{user}}</h3>
+    } -->
+        @if($odd){
+         <h3 style="color: red; background-color: rgb(15, 138, 246);">This is Our {{i}} User And {{user}}</h3>
+        }@else {
+          <h3 style="background-color: blueviolet; color: white;">This is Our {{i}} User ANd {{user}}</h3>
+        }
+ <h1>{{$count}}</h1>
+
+}
+@empty(){
+ <h1>This is Record empty</h1>
+ }

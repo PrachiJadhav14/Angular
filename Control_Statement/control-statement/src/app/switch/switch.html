@@ -1,0 +1,22 @@
+
+<h1>Swtich Case In Angular</h1>
+<button (click)="handlColor('red')">Red</button>
+<button (click)="handlColor('grren')">Green</button>
+<button (click)="handlColor('Pink')">Pink</button>
+<button (click)="handlColor('default')">Default</button>
+<input type="text" placeholder="Enter Code" (input)="ChnageColor($event)">
+
+@switch(color){
+  @case ('red') {
+    <h1 style="background-color: rgb(231, 51, 6); color: aliceblue;">Red Color</h1>
+  }
+  @case ('grren'){
+    <h1 style="background-color: rgb(5, 105, 42);">Hello ,Green Color</h1>
+  }
+   @case ('Pink'){
+    <h1 style="background-color: rgb(220, 15, 168);">Hello ,pink Color</h1>
+  }
+  @default {
+         <h1 style="background-color: rgb(8, 8, 8); color: azure;">No Color Match</h1>
+  }
+}
